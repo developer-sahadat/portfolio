@@ -1,0 +1,194 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/*-----------------------------------
+        Header Section start
+------------------------------------*/
+
+[class*="col-"]{
+
+    float: left;
+}
+
+.nav-menu-link{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items: end;
+    margin-top:5px;
+  }
+
+  .nav-menu-link a{
+    background-color: transparent ;
+}
+
+.nav-menu-hedding{
+    margin-top:14px;
+}
+
+/*-------------------------------------------------------
+               Main Section Section Start
+-------------------------------------------------------*/
+
+/*-------------------------
+    main section info
+--------------------------*/
+
+.section-info-text{
+    font-size:31px;
+    transition-property:font-size;
+    transition-duration:2s;
+
+}
+
+.section-info-text:hover{
+    font-size: 38px;
+}
+
+.section-info .img2{
+    position: absolute;
+    left:28px;
+    top: 390px;
+    transition: transform 2s;
+}
+
+/*----------------------
+     main section CV
+------------------------*/
+
+[class*="col-"]{
+    float: left;
+}
+
+.cv{
+    margin-top: 20px;
+    padding: 0;
+  text-align: left;
+}
+
+.section-cv-img{
+    margin-top: 100px;
+}
+
+.section-cv-img img{
+    width:150px;
+    height:150px;
+    border-radius: 100px;
+}
+
+.download-cv{
+    padding: 17px;
+    margin-top: 25px;
+    margin-bottom:15px;
+    border: none;
+    border-radius:25px;
+    font-size:22px;
+}
+
+/*--------------------------
+     main section Card
+----------------------------*/
+
+[class*="col-"]{
+    float: left;
+}
+
+.container-card{
+    background-color: #fff;
+    display: flex;
+}
+
+
+/*------------------------------
+        main section about
+  ------------------------------*/
+
+  [class*="col-"]{
+    float: left;
+}
+
+.social-media-section {
+    position: relative;
+    text-align: center;
+    
+}
+
+.social-nedia-icon{
+
+    position:absolute;
+    top:50%;
+    left:20%;
+    transform: translateY(-50%, -20%);
+    margin-top:100px;
+    text-align: left;
+}
+
+.social-nedia-icon button{
+    margin: 6px;
+}
+
+.container-about h2{
+    margin-top:10px;
+}
+
+.my-experience{
+    margin-left: 0px;
+}
+.my-experience h2{
+    margin-top:32px;
+   
+}
+
+.contact-section{
+    margin-left:10px;
+}
+
+.social-media-section{
+    margin-left: 10px;
+}
+
+.social-media-section h2{
+    margin-top:0px;
+   
+}
+
+/*-------------------------------------------------------
+               Main Section Section end
+-------------------------------------------------------*/
+
+
+/*--------------------------------------
+      Footer Section Section Start
+---------------------------------------*/
+footer{
+    padding: 50px;
+}
+footer a{
+    display:inline;
+    background-color:transparent;
+  font-size:24px;
+   
+}
+
+.copyright{
+    margin-top: 1px;
+}
+.love{
+    display: inline;
+    }
+    
+/*--------------------------------------
+      Footer Section Section end
+---------------------------------------*/
